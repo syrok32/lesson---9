@@ -1,6 +1,6 @@
-import java.lang.reflect.Array;
+
 import java.util.Arrays;
-import java.util.Random;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -38,7 +38,7 @@ public class Main {
         for (int element : arr) {
             total1+= element;
         }
-        double avg  = total / arr.length;
+        double avg  = total1 / arr.length;
         System.out.println(avg);
 
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
